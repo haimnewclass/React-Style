@@ -1,3 +1,19 @@
+.aaa{
+  background-color: blue;;
+  display: block;
+  width: 100px;
+}
+
+.bbb{
+  background-color: greenyellow;;
+  display: block;
+  width: 200px;
+}
+
+.ccc{
+  font-size: x-large;
+}
+
 .App {
   text-align: center;
 }

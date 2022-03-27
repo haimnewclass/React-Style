@@ -1,0 +1,29 @@
+$mainBg:purple;
+$genBtnWidth:150px;
+
+.ddd{
+    background-color: $mainBg;
+    display: block;
+    width: $genBtnWidth;
+}
+
+@mixin eee ($wid) {
+    width: $wid;
+    display: block;
+    background-color: $mainBg;
+}
+
+.fff{
+    font-weight: bold;
+    @include eee(200px);    
+}
+
+.ggg{
+    font-weight: bold;
+    @include eee(50px);
+}
+
+
+
+
+
